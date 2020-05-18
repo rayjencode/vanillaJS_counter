@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(83, 27, 187);
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    flex: 0 0 80%;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: rgb(21, 146, 77);
+    cursor: pointer;
+}
+
+#counter {
+    font-size: 5rem;
+}
